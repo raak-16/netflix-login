@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+.img1{width: 100%;height: 100%;position: relative;}
+*{margin: 0%;}
+.img2{position: absolute;top: 4%;left: 6%;width: 10%;height: 10%;}
+.thebox{width: 25%;height: 50%;position: absolute;background-color: black;opacity: 0.78 ;left: 50%;top: 50%;transform: translate(-50%,-50%);display: grid;grid-template-rows: 20% 20% 20%  ;grid-template-columns: 50% 50%;}
+input{text-align: center;width: 100%;justify-self: center;}
+p{text-shadow: 5px 2px 2px;color: antiquewhite;font-family:"Montserrat", sans-serif;text-align: center  ;padding-top: 5%;}
+.agree,.decline{color: whitesmoke;border-style: solid;border-radius: 5px;display: inline-block;text-align: center;height: 70%;width: 50%;}
+.agree:hover,.decline:hover{color: deepskyblue;}
+.agree{margin: 0%;grid-row-start: 4;grid-column-start: 1;text-align: center;}
+.decline{grid-row-start: 4;grid-column-start: 2;}
+.thebox input{grid-row: span 1;grid-column: span 2;grid-column-start: 1;grid-column-end: 3;}
+p{grid-row: span 1;grid-column: span 2;grid-row-start: 3;}
+.agree{justify-self: center;margin-top: 0px;margin-bottom: auto;}
+.decline{justify-self: center;margin-top: 0px;margin-bottom: auto;}
+.form-check{grid-column: span 5;margin: 2%;}
+
